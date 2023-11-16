@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.headerContainer {
+  max-width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+.headerContainer .navbar_bkgColor {
+  max-width: 100%;
+  background-color: #F5F5F5;
+}
+.headerContainer .navbar_bkgColor .navBar {
+  max-width: 65%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 15px 0px;
+  font-size: 13px;
+}
+.headerContainer .navbar_bkgColor .navBar .navBar_leftSide {
+  display: flex;
+}
+.headerContainer .navbar_bkgColor .navBar .navBar_leftSide .massage {
+  padding-right: 20px;
+  border-right: 1px solid lightgray;
+}
+.headerContainer .navbar_bkgColor .navBar .navBar_leftSide p {
+  padding: 0px 20px;
+}
+.headerContainer .navbar_bkgColor .navBar .navBar_rightSide {
+  display: flex;
+}
+.headerContainer .navbar_bkgColor .navBar .navBar_rightSide .contactIcons {
+  border-right: 1px solid lightgray;
+}
+.headerContainer .navbar_bkgColor .navBar .navBar_rightSide .contactIcons .fa-brands {
+  padding-right: 20px;
+}
+.headerContainer .navbar_bkgColor .navBar .navBar_rightSide .language {
+  display: flex;
+  padding: 0px 20px;
+}
+.headerContainer .navbar_bkgColor .navBar .navBar_rightSide .language .languageIcon {
+  padding-right: 10px;
+}
+.headerContainer .navbar_bkgColor .navBar .navBar_rightSide .language .languageIcon img {
+  width: 30px;
+  height: 20px;
+}
+.headerContainer .navbar_bkgColor .navBar .navBar_rightSide .language p .fa-chevron-down {
+  font-size: 10px;
+}
+.headerContainer .navbar_bkgColor .navBar .navBar_rightSide .login {
+  border-left: 1px solid lightgray;
+  padding-left: 20px;
+}
+.headerContainer .navbar_bkgColor .navBar .navBar_rightSide .login button {
+  border: none;
+  padding-left: 10px;
+}
+.headerContainer .navMenu {
+  max-width: 65%;
+  display: flex;
+  margin: 0 auto;
+  background-color: white;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+.headerContainer .navMenu .navMenuList ul {
+  display: flex;
+  gap: 50px;
+  padding: 15px 0px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.headerContainer .navMenu .navMenuList ul li {
+  transition: 300ms;
+}
+.headerContainer .navMenu .navMenuList ul li:hover {
+  color: #7FAD39;
+}
+.headerContainer .navMenu .navMenuList ul .home {
+  color: #7FAD39;
+}
+.headerContainer .navMenu .favorite {
+  display: flex;
+  gap: 10px;
+  padding: 15px 0px;
+}
+.headerContainer .navMenu .favorite i {
+  font-size: 20px;
+}
+.headerContainer .navMenu .favorite i sup {
+  padding: 3px 5px;
+  border-radius: 50%;
+  background-color: #7FAD39;
+  font-size: 8px;
+  color: white;
+  font-weight: 600;
+}
+.headerContainer .navMenu .favorite p {
+  padding-left: 20px;
+  font-size: 14px;
+}
+.headerContainer .navMenu .favorite p span {
+  font-weight: 900;
+}
+.headerContainer .navSearch {
+  max-width: 65%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.headerContainer .navSearch .departments {
+  border: 1px solid lightgray;
+}
+.headerContainer .navSearch .departments .departments-header {
+  display: flex;
+  gap: 10px;
+  background-color: #7FAD39;
+  color: white;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.headerContainer .navSearch .departments .departments-header .fa-sort-down {
+  padding-left: 20px;
+}
+.headerContainer .navSearch .departments ul li {
+  padding: 13px 40px;
+  font-size: 15px;
+}
+.headerContainer .navSearch .searchBar {
+  display: flex;
+  height: 50px;
+  border: 1px solid lightgray;
+}
+.headerContainer .navSearch .searchBar .categories {
+  margin: auto 0;
+  padding: 0px 20px;
+  border-right: 1px solid lightgray;
+}
+.headerContainer .navSearch .searchBar .categories p {
+  font-weight: 600;
+}
+.headerContainer .navSearch .searchBar .categories i {
+  padding-left: 30px;
+  font-size: 10px;
+}
+.headerContainer .navSearch .searchBar input {
+  border: none;
+  outline: none;
+  padding: 0px 20px;
+  font-size: 15px;
+  color: lightgray;
+}
+.headerContainer .navSearch .searchBar button {
+  border: none;
+  padding: 0px 30px;
+  color: white;
+  background-color: #7FAD39;
+  font-weight: 900;
+}
+.headerContainer .navSearch .hotline {
+  display: flex;
+}
+.headerContainer .navSearch .hotline .hotlineIcon {
+  height: 50px;
+  border-radius: 50%;
+  background-color: #F5F5F5;
+}/*# sourceMappingURL=main.css.map */

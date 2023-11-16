@@ -1,0 +1,212 @@
+.headerContainer {
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+
+    .navbar_bkgColor {
+        max-width: 100%;
+        background-color: #F5F5F5;
+
+        .navBar {
+            @include sectionHeader;
+            justify-content: space-between;
+            padding: 15px 0px;
+            font-size: 13px;
+
+            .navBar_leftSide {
+                display: flex;
+
+                .massage {
+                    padding-right: 20px;
+                    border-right: 1px solid lightgray;
+                }
+
+                p {
+                    padding: 0px 20px;
+                }
+
+            }
+
+            .navBar_rightSide {
+                display: flex;
+
+                .contactIcons {
+                    border-right: 1px solid lightgray;
+
+                    .fa-brands {
+                        padding-right: 20px;
+
+                    }
+                }
+
+                .language {
+                    display: flex;
+                    padding: 0px 20px;
+
+                    .languageIcon {
+                        padding-right: 10px;
+
+                        img {
+                            width: 30px;
+                            height: 20px;
+                        }
+                    }
+
+                    p {
+                        .fa-chevron-down {
+                            font-size: 10px
+                        }
+                    }
+                }
+
+                .login {
+                    border-left: 1px solid lightgray;
+                    padding-left: 20px;
+
+                    button {
+                        border: none;
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .navMenu {
+        @include sectionHeader;
+        background-color: white;
+        justify-content: space-between;
+        padding: 15px 0px;
+
+        .navMenuList {
+            ul {
+                display: flex;
+                gap: 50px;
+                padding: 15px 0px;
+                font-size: 15px;
+                font-weight: 600;
+                letter-spacing: 1px;
+
+                li {
+                    transition: 300ms;
+
+                    &:hover {
+                        color: #7FAD39;
+                    }
+                }
+
+                .home {
+                    color: #7FAD39;
+                }
+            }
+        }
+
+        .favorite {
+            display: flex;
+            gap: 10px;
+            padding: 15px 0px;
+
+            i {
+                font-size: 20px;
+
+                sup {
+                    padding: 3px 5px;
+                    border-radius: 50%;
+                    background-color: #7FAD39;
+                    font-size: 8px;
+                    color: white;
+                    font-weight: 600;
+                }
+            }
+
+            p {
+                padding-left: 20px;
+                font-size: 14px;
+
+                span {
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+
+    .navSearch {
+        @include sectionHeader;
+        justify-content: space-between;
+
+        .departments {
+            border: 1px solid lightgray;
+
+            .departments-header {
+                display: flex;
+                gap: 10px;
+                background-color: #7FAD39;
+                color: white;
+                padding: 15px 40px;
+                font-size: 18px;
+                font-weight: 700;
+
+                .fa-sort-down {
+                    padding-left: 20px;
+                }
+
+            }
+
+            ul {
+                li {
+                    padding: 13px 40px;
+                    font-size: 15px;
+
+                }
+            }
+        }
+
+        .searchBar {
+            display: flex;
+            height: 50px;
+            border: 1px solid lightgray;
+
+            .categories {
+                margin: auto 0;
+                padding: 0px 20px;
+                border-right: 1px solid lightgray;
+
+                p {
+                    font-weight: 600;
+                }
+
+                i {
+                    padding-left: 30px;
+                    font-size: 10px;
+                }
+            }
+
+            input {
+                border: none;
+                outline: none;
+                padding: 0px 20px;
+                font-size: 15px;
+                color: lightgray;
+            }
+
+            button {
+                border: none;
+                padding: 0px 30px;
+                color: white;
+                background-color: #7FAD39;
+                font-weight: 900;
+            }
+        }
+
+        .hotline {
+            display: flex;
+            .hotlineIcon {
+                height: 50px;
+                border-radius: 50%;
+                background-color:#F5F5F5;
+                // line-height: 40px;
+                // text-align: center;
+
+            }
+        }
+    }
+}
