@@ -1,82 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <div class="headerContainer">
-        <div class="navbar_bkgColor">
-          <div class="navBar">
-            <div class="navBar_leftSide">
-              <div class="massage">
-                <i class="fa-solid fa-envelope"></i>
-                <span>hello@colorlib.com</span>
-              </div>
-              <p>Free Shipping for all Order of $99</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+  rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+  <header>
+    <div class="headerContainer">
+      <div class="navbar_bkgColor">
+        <div class="navBar">
+          <div class="navBar_leftSide">
+            <div class="massage">
+              <i class="fa-solid fa-envelope"></i>
+              <span>hello@colorlib.com</span>
             </div>
-            <div class="navBar_rightSide">
-              <div class="contactIcons">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
-                <i class="fa-brands fa-pinterest-p"></i>
+            <p>Free Shipping for all Order of $99</p>
+          </div>
+          <div class="navBar_rightSide">
+            <div class="contactIcons">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <i class="fa-brands fa-pinterest-p"></i>
+            </div>
+            <div class="language">
+              <div class="languageIcon">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
+                  alt="USA Flag" />
               </div>
-              <div class="language">
-                <div class="languageIcon">
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
-                    alt="USA Flag"
-                  />
-                </div>
-                <div class="langSelec">
-                  <p>English <i class="fa-solid fa-chevron-down"></i></p>
-                </div>
+              <div class="langSelec">
+                <p>English <i class="fa-solid fa-chevron-down"></i></p>
               </div>
-              <div class="login">
-                <i class="fa-solid fa-user"></i>
-                <button><a href="#">Login</a></button>
-              </div>
+            </div>
+            <div class="login">
+              <i class="fa-solid fa-user"></i>
+              <button><a href="#">Login</a></button>
             </div>
           </div>
         </div>
-        <div class="navMenu">
-          <div class="headerIcon">
-            <img
-              src="https://preview.colorlib.com/theme/ogani/img/logo.png.webp"
-              alt=""
-            />
-          </div>
-          <div class="navMenuList">
-            <ul>
-              <li class="home">HOME</li>
-              <li>SHOP</li>
-              <li>PAGES</li>
-              <li>BLOG</li>
-              <li>CONTACT</li>
-            </ul>
-          </div>
-          <div class="favorite">
-            <i class="fa-solid fa-heart"><sup>1</sup></i>
-            <i class="fa-solid fa-bag-shopping"><sup>3</sup></i>
-            <p>item:<span>$150.00</span></p>
-          </div>
+      </div>
+      <div class="navMenu">
+        <div class="headerIcon">
+          <img src="https://preview.colorlib.com/theme/ogani/img/logo.png.webp" alt="" />
         </div>
-        <div class="navSearch">
+        <div class="navMenuList">
+          <ul>
+            <li class="home">HOME</li>
+            <li>SHOP</li>
+            <li>PAGES</li>
+            <li>BLOG</li>
+            <li>CONTACT</li>
+          </ul>
+        </div>
+        <div class="favorite">
+          <i class="fa-solid fa-heart"><sup>1</sup></i>
+          <i class="fa-solid fa-bag-shopping"><sup>3</sup></i>
+          <p>item:<span>$150.00</span></p>
+        </div>
+      </div>
+      <div class="navSearch">
+        <div class="navSearch_leftSide">
           <div class="departments">
             <div class="departments-header">
               <i class="fa-solid fa-bars"></i>
@@ -98,26 +92,59 @@
               <li>Fresh Bananas</li>
             </ul>
           </div>
-          <div class="searchBar">
-            <div class="categories">
-              <p>All Categories <i class="fa-solid fa-chevron-down"></i></p>
+        </div>
+        <div class="navSearch_rightSide">
+          <div class="navSearch_upSide">
+            <div class="searchBar">
+              <div class="categories">
+                <p>All Categories <i class="fa-solid fa-chevron-down"></i></p>
+              </div>
+              <input type="text" placeholder="What do you need?" />
+              <button>SEARCH</button>
             </div>
-            <input type="text" placeholder="What do you need?" />
-            <button>SEARCH</button>
+            <div class="hotline">
+              <div class="hotlineIcon"><i class="fa-solid fa-phone"></i></div>
+              <div class="hotline_call">
+                <p class="hotline_num">+65 11.188.888</p>
+                <p class="hotline_time">support 24/7 time</p>
+              </div>
+            </div>
           </div>
-          <div class="hotline">
-            <div class="hotlineIcon"><i class="fa-solid fa-phone"></i></div>
-            <div class="hotline_call">
-              <p class="hotline_num">+65 11.188.888</p>
-              <p class="hotline_time">support 24/7 time</p>
+          <div class="navSearch_underSide">
+            <div class="navSearchTextBox">
+              <p class="fruitFresh">FRUIT FRESH</p>
+            <h1>Vegetable
+              100% Organic</h1>
+            <p class="headerInfo">Free Pickup and Delivery Available</p>
+            <button><a href="#">SHOP NOW</a></button>
             </div>
           </div>
         </div>
-      </div>
-    </header>
-    <main></main>
-    <footer></footer>
 
-    <script src="./assets/javascript/script.js"></script>
-  </body>
+
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="caruselSection">
+      <div class="your-class">
+        <div>your content</div>
+        <div>your content</div>
+        <div>your content</div>
+      </div>
+    </section>
+    <section id="featuredProduct"></section>
+    <section id="advert"></section>
+    <section id="productsCaruselSection"></section>
+    <section id="blog"></section>
+  </main>
+  <footer></footer>
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./assets/javascript/script.js"></script>
+</body>
+
 </html>
