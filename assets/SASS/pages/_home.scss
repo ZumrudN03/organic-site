@@ -1,9 +1,9 @@
-#main{
-    @include sectionHeader;
-    display: flex;
-    justify-content: flex-end
-    // .mainImg{
- 
-    // }
-    
+#caruselSection{
+    width: 80%;
+    margin: 20px auto;
+    .cardSection{
+        display: flex;
+        align-items: center;
+
+    }
 }

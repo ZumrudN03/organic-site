@@ -283,10 +283,11 @@ img {
     max-width: 90%;
   }
 }
-#main {
-  max-width: 65%;
+#caruselSection {
+  width: 80%;
+  margin: 20px auto;
+}
+#caruselSection .cardSection {
   display: flex;
-  margin: 0 auto;
-  display: flex;
-  justify-content: flex-end;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
